@@ -7,7 +7,7 @@ $mail->Host = 'smtp.gmail.com';
 $mail->Port = 465;
 //465
 $mail->SMTPAuth = true;
-$mail->Username = 'persson.andreeas@gmail.com';
+$mail->Username = 'your@mail';
 $mail->Password = 'removed';
 $mail->SMTPSecure = 'ssl';
 $mail->SMTPOptions = array(
