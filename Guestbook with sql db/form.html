@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=iso-8859-1" />
+    <title>
+      Exempel
+    </title>
+  </head>
+  <body>
+    <form action="connect.php" method="post" enctype="multipart/form-data">
+      <table>
+        <tr>
+          <td>
+            Namn:
+          </td>
+          <td>
+            <input type="text" name="name" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            E-post:
+          </td>
+          <td>
+            <input type="text" name="email" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Hemsida:
+          </td>
+          <td>
+            <input type="text" name="homepage" />
+          </td>
+        </tr>
+		<tr>
+          <td>
+            Bild:
+          </td>
+          <td>
+            <input type="file" name="image"  />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Kommentar:
+          </td>
+          <td>
+            <textarea name="comment" rows="10" cols="15">
+		</textarea>
+          </td>
+        </tr>
+      </table>
+      <p>
+        <input type="submit" value="Lägg till" name="push_button" />
+      </p>
+    </form>
+
+  </body>
+</html>
