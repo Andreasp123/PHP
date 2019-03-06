@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+
+     .jumbotron {
+      margin-bottom: 0;
+    }
+   
+
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+<?php
+echo "herro";
+?>
+
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Medlemsbutik</h1>      
+    <p>Oslagbara deals</p>
+	
+  </div>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>    
+		
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="cart.php"><span class="glyphicon glyphicon-shopping-cart"></span> Cart
+		 
+		</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">Bluetoothkompatibla hörlurar</div>
+        <div class="panel-body">---product1---	
+		</div>
+		<form method="post" action="kundshop.php">
+        <div class="panel-footer">129:-
+		<button type="submit" name="product1" formaction="kundshop.php">Köp</button>
+		</form>
+		</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading">Samsung</div>
+        <div class="panel-body">---product2---
+		</div>
+		<form method="post" action="kundshop.php">
+        <div class="panel-footer">255:-
+		<button type="submit" name="product2" formaction="kundshop.php">Köp</button>
+		</form>
+		</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-success">
+        <div class="panel-heading">M & J</div>
+        <div class="panel-body">---product3---
+		</div>
+		<form method="post" action="kundshop.php">
+        <div class="panel-footer">139-:
+		<button type="submit" name="product3" formaction="kundshop.php">Köp</button>
+		</form>
+		</div>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">Noname</div>
+        <div class="panel-body">---product4---
+		</div>
+		<form method="post" action="kundshop.php">
+        <div class="panel-footer">79:-
+		<button type="submit" name="product4" formaction="kundshop.php">Köp</button>
+		</form>
+		</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">Langsdom</div>
+        <div class="panel-body">---product5---
+		</div>
+		<form method="post" action="kundshop.php">
+        <div class="panel-footer">199:-
+		<button type="submit" name="product5" formaction="kundshop.php">Köp</button>
+		</form>
+		</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">Moojecal</div>
+        <div class="panel-body">---product6---
+		</div>
+		<form method="post" action="kundshop.php">
+        <div class="panel-footer">184:-
+		<button type="submit" name="product6" formaction="kundshop.php">Köp</button>
+		</form>
+		</div>
+      </div>
+    </div>
+  </div>
+</div><br><br>
+
+<footer class="container-fluid text-center">
+  <p>Online Store Copyright</p>  
+  <form class="form-inline">Get deals:
+    <input type="text" name="email_list" size="50" placeholder="Email Address">
+    <button type="submit" name="test" formaction="kundshop.php" class="btn btn-danger">Sign Up</button>
+  </form>
+</footer>
+
+</body>
+</html>

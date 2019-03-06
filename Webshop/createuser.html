@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=iso-8859-1"/>
+    <title>
+      Exempel
+    </title>
+  </head>
+  <body>
+  <h1> Skapa användare </h1>
+    <form method="post" action="createuser.php">
+      <table>
+        <tr>
+          <td>
+            Namn:
+          </td>
+          <td>
+            <input type="text" name="name"/>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            E-mail:
+          </td>
+          <td>
+            <input type="text" name="email"/>
+          </td>
+        </tr>
+          <td>
+            Lösenord:
+          </td>
+          <td>
+            <input type="text" name="password"/>
+          </td>
+        </tr>
+      </table>
+      <p>
+		<button type="submit" formaction="login.php">Gå tillbaka</button>
+        <input type="submit" value="Skapa" name="push_button"/>
+      </p>
+    </form>
+  </body>
+</html>
+
